@@ -5,7 +5,8 @@ import { ProTip } from './ProTip';
 import { Speaker, Loader2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { textToSpeech } from '@/app/actions';
-import { useState, useTransition } from 'react';
+import { useState, useTransition, Children, isValidElement } from 'react';
+import { Textarea } from '@/components/ui/textarea';
 
 type StageProps = {
   stageNumber: number;
@@ -14,6 +15,18 @@ type StageProps = {
   proTip: string;
 };
 
+// Helper function to extract text from React nodes
+function getNodeText(node: React.ReactNode): string {
+  if (typeof node === 'string') return node;
+  if (typeof node === 'number') return String(node);
+  if (Array.isArray(node)) return node.map(getNodeText).join(' ');
+
+  if (isValidElement(node) && node.props.children) {
+    return Children.map(node.props.children, getNodeText).join(' ');
+  }
+  
+  return '';
+}
 
 export function Stage({ stageNumber, title, content, proTip }: StageProps) {
     const { toast } = useToast();
@@ -21,7 +34,7 @@ export function Stage({ stageNumber, title, content, proTip }: StageProps) {
     const [isPending, startTransition] = useTransition();
 
     const handleReadAloud = () => {
-        const textContent = (content as React.ReactElement)?.props.children.map((p: any) => p.props.children).join(' ');
+        const textContent = getNodeText(content);
         
         startTransition(async () => {
             const result = await textToSpeech(textContent);
@@ -35,8 +48,8 @@ export function Stage({ stageNumber, title, content, proTip }: StageProps) {
                 })
             } else {
                 toast({
-                    title: "Feature Not Implemented",
-                    description: "Reading this aloud would be far too productive. We can't have that.",
+                    title: "Audio Error",
+                    description: "Couldn't generate the audio. The silence is probably more profound anyway.",
                     variant: "destructive"
                 })
             }
@@ -51,7 +64,7 @@ export function Stage({ stageNumber, title, content, proTip }: StageProps) {
 
       <div className="grid md:grid-cols-3 gap-8">
         <div className="md:col-span-2 space-y-6">
-          <Card className="shadow-lg">
+          <Card className="shadow-lg bg-white">
             <CardContent className="p-8 text-lg leading-relaxed">
               {content}
             </CardContent>
@@ -60,16 +73,18 @@ export function Stage({ stageNumber, title, content, proTip }: StageProps) {
         </div>
 
         <div className="md:col-span-1">
-          <Card className="shadow-lg sticky top-28">
+          <Card className="shadow-lg sticky top-28 bg-white">
             <CardHeader>
               <CardTitle className="font-headline">Interactive Notes</CardTitle>
               <CardDescription>Jot down your epiphanies.</CardDescription>
             </CardHeader>
             <CardContent>
-                <div className="p-4 bg-background border rounded-lg h-48 mb-4 flex items-center justify-center text-muted-foreground/50">
-                  <p>...or don't. It's all the same.</p>
-                </div>
-                <Button variant="secondary" className="w-full" onClick={handleReadAloud} disabled={isPending}>
+                <Textarea
+                  placeholder="Your brilliant, fleeting thoughts go here..."
+                  className="h-48 resize-none mb-4 bg-background"
+                  defaultValue={`- A pointer is a variable that has seen too much.\n- Debugging is the process of removing bugs, so programming must be the process of putting them in.\n- Note to self: Redefine 'success' to 'successfully failed.'`}
+                />
+                <Button className="w-full" onClick={handleReadAloud} disabled={isPending}>
                     {isPending ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Speaker className="mr-2 h-4 w-4"/>}
                     Read Aloud
                 </Button>
