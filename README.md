@@ -106,27 +106,27 @@ src/ai/genkit.ts: This is the central configuration file for Genkit. It initiali
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1]
-*Add caption explaining what this shows*
+![<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/f22e1c4a-a181-4e99-8a9c-561bf1eee566" />]
 
-![Screenshot2]
-*Add caption explaining what this shows*
+![<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/6eb5810f-be82-4713-8d8d-321502d48b09" />]
 
-![Screenshot3]
-*Add caption explaining what this shows*
+
+
+[<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/ee5f2f00-20cf-414a-bbf6-ce1aae090fb9" />]
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/59874138-8b23-4a48-a4cb-df5ab041a096" />
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/4cc907df-d936-4c06-91b9-871153b3d911" />
+<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/75db30c0-c49f-46fc-9c7f-4bd80f4824f7" />
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/7a761bbf-f716-4ea9-851b-4792ced698f9" />
+<img width="1920" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/9e0f0eb6-8ba6-4f9b-ab7f-2b95db328ce2" />
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/8518164b-2edb-4d76-8c6a-2cc4a17d313b" />
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/1362c36a-3391-45de-b75f-4455bc733ee3" />
 
 # Build Photos
 ![Components](Add photo of your components here)
