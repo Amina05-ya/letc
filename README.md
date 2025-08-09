@@ -106,17 +106,17 @@ src/ai/genkit.ts: This is the central configuration file for Genkit. It initiali
 For Software:
 
 # Screenshots (Add at least 3)
-![<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/f22e1c4a-a181-4e99-8a9c-561bf1eee566" />]
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/f22e1c4a-a181-4e99-8a9c-561bf1eee566" />
 
-![<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/6eb5810f-be82-4713-8d8d-321502d48b09" />]
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/6eb5810f-be82-4713-8d8d-321502d48b09" />
 
 
 
-[<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/ee5f2f00-20cf-414a-bbf6-ce1aae090fb9" />]
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/ee5f2f00-20cf-414a-bbf6-ce1aae090fb9" />
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+
 <img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/59874138-8b23-4a48-a4cb-df5ab041a096" />
 
 
@@ -129,14 +129,7 @@ For Software:
 <img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/1362c36a-3391-45de-b75f-4455bc733ee3" />
 <img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/91eec0fb-157f-4742-9a05-0759257f0942" />
  Photos
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
@@ -165,7 +158,7 @@ This member was responsible for all the behind-the-scenes logic and crafting the
 * *Content Creation:* Developed all the data for the stages, including the *pointless notes, **absurd quiz questions, and funny **"Pro-Tip"* messages.
 * *Feature Implementation:* Implemented the unique features like the *text-to-speech* ("Read Aloud") functionality and the logic for the final reward screen.
 * *Project Management:* Managed the overall project structure, README file, and final submission details.
-- [Name 3]: [Specific contributions]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
