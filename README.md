@@ -127,8 +127,8 @@ For Software:
 <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/8518164b-2edb-4d76-8c6a-2cc4a17d313b" />
 
 <img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/1362c36a-3391-45de-b75f-4455bc733ee3" />
-
-# Build Photos
+<img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/91eec0fb-157f-4742-9a05-0759257f0942" />
+ Photos
 ![Components](Add photo of your components here)
 *List out all components shown*
 
