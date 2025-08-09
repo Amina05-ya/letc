@@ -106,35 +106,31 @@ src/ai/genkit.ts: This is the central configuration file for Genkit. It initiali
 ### Project Documentation
 For Software:
 
- Screenshots (Add at least 3)
-![Screenshot1] <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f2befcbb-d7ff-4c67-9b07-18c785677978" />
-our project front page
+# Screenshots (Add at least 3)
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/f22e1c4a-a181-4e99-8a9c-561bf1eee566" />
 
-![Screenshot2]<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3a6c1e49-8c3a-4f4d-8d74-f6e390e5fc9b" />
-project stages
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/6eb5810f-be82-4713-8d8d-321502d48b09" />
 
-![Screenshot3]<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7c3746d2-0582-4503-afd5-a3c2aa745775" />
-congratulation message
 
- Diagrams
-Workflow
-1. <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f2befcbb-d7ff-4c67-9b07-18c785677978" />
 
-2.<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3a6c1e49-8c3a-4f4d-8d74-f6e390e5fc9b" />
-3.
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/61ee7ae7-2acf-4bae-9c6e-a970c2103c08" />
-4.<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8a1caf86-6cfc-4d86-bf06-97a772b62c69" />
-5.<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ac568b5d-f8a9-4ad1-8eed-8f3d5a8faccc" />
-6.<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d48b49e8-ae4a-41ba-9dc1-c54136dccd0a" />
-7.<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/676a7fb3-aa25-4f9b-b4b4-f234c0d5d693" />
-8.
-*Add<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8f4f8476-afff-4af2-a79e-7fd6969f9ab7" /> caption explaining your workflow*
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/ee5f2f00-20cf-414a-bbf6-ce1aae090fb9" />
 
-Final
+# Diagrams
+![Workflow](Add your workflow/architecture diagram here)
 
-*Add<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8f4f8476-afff-4af2-a79e-7fd6969f9ab7" /> caption explaining your workflow*
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/59874138-8b23-4a48-a4cb-df5ab041a096" />
 
-*Explain the final build*
+
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/4cc907df-d936-4c06-91b9-871153b3d911" />
+<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/75db30c0-c49f-46fc-9c7f-4bd80f4824f7" />
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/7a761bbf-f716-4ea9-851b-4792ced698f9" />
+<img width="1920" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/9e0f0eb6-8ba6-4f9b-ab7f-2b95db328ce2" />
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/8518164b-2edb-4d76-8c6a-2cc4a17d313b" />
+
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/1362c36a-3391-45de-b75f-4455bc733ee3" />
+<img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/91eec0fb-157f-4742-9a05-0759257f0942" />
+ Photos
+
 
 ### Project Demo
 # Video
@@ -163,6 +159,7 @@ This member was responsible for all the behind-the-scenes logic and crafting the
 * *Content Creation:* Developed all the data for the stages, including the *pointless notes, **absurd quiz questions, and funny **"Pro-Tip"* messages.
 * *Feature Implementation:* Implemented the unique features like the *text-to-speech* ("Read Aloud") functionality and the logic for the final reward screen.
 * *Project Management:* Managed the overall project structure, README file, and final submission details.
+- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
